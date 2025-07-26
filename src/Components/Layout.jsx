@@ -1,0 +1,1 @@
+//This component should contain header nav with placeholder links and should be routed to app.jsx
