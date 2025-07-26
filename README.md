@@ -1,12 +1,12 @@
-# React + Vite
+# 💸 Worth the Wallet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive full-stack web app to help users make informed financial decisions.
 
-Currently, two official plugins are available:
+## 🚀 How to Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Backend (Flask)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+npm start
